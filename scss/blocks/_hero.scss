@@ -130,7 +130,7 @@ body {
     transition: opacity 0.4s ease;
 }
 
-.choice-btn:focus .choice::after {
+.choice-btn:hover .choice::after {
     opacity: 1;
     box-shadow: 0 0 0 2rem #223351;
     z-index: -2;
@@ -213,7 +213,7 @@ body {
     display: grid;
     place-items: center;
 }
-.winner .choice::after {
+.choice .winner{
     box-shadow: 0 0 0 40px #293251, 0 0 0 80px #232c4b, 0 0 0 130px #1e2949;
     animation: winner 1s ease forwards;
 }
